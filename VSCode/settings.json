@@ -1,0 +1,139 @@
+// Add whatever other settings you would like or change to your liking, go wild!
+{
+  "prettier.singleQuote": false, // I hear double-quotes are better... so I have this false.
+  "files.autoSave": "afterDelay",
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // Prittier Extension
+  "editor.formatOnSave": true, // Formats file on Save (CRTL + S)
+  "editor.formatOnPaste": true, // Formats text on paste (CRTL + V)
+  "editor.formatOnType": true, // Formats when typing (:
+  "editor.tabSize": 2, // This looks really clean!
+  "workbench.iconTheme": "eq-material-theme-icons", // Material Icon Theme Extension
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.eol": "\n",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "npm.packageManager": "yarn",
+  "diffEditor.wordWrap": "on",
+  "editor.wordWrap": "on",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "redhat.telemetry.enabled": false, // Ewwwwwwww
+  "terminal.integrated.fontFamily": "MesloLGS NF", // Nerd Font (https://www.nerdfonts.com/)
+  "workbench.startupEditor": "none",
+  "explorer.compactFolders": false,
+  "npm.keybindingsChangedWarningShown": true,
+  "editor.cursorWidth": 2,
+  "http.proxyAuthorization": null,
+  // "github.gitProtocol": "ssh",
+  "git.showPushSuccessNotification": true,
+  "editor.minimap.autohide": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.cursorBlinking": "smooth",
+  "omnisharp.useModernNet": false,
+  "material-icon-theme.activeIconPack": "nest",
+  "workbench.list.smoothScrolling": true,
+  "editor.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+
+  "editor.cursorSmoothCaretAnimation": "on",
+  "files.trimTrailingWhitespace": true,
+  "powershell.codeFormatting.preset": "OTBS",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "terminal.integrated.allowChords": false,
+  "terminal.integrated.experimentalLinkProvider": true,
+  "git.ignoreMissingGitWarning": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "python.venvPath": "C:\\Users\\ENTERYOURUSERNAMEHERE\\Documents\\Python", // Please just replace your username where it states.
+  "python.analysis.autoImportCompletions": false,
+  "files.insertFinalNewline": true,
+  "html.format.wrapLineLength": 0,
+  "editor.minimap.enabled": true,
+  "git.ignoreLegacyWarning": true,
+  "git.autofetch": true,
+  // "scm.providers.visible": 30,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      // PowerShell is best!
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      // no longer need this.
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      // Git Bash #1
+      "source": "Git Bash"
+    }
+  },
+  "terminal.integrated.profiles.osx": {
+    // for those of you on osx (lucky)
+    "bash": {
+      "path": "bash"
+    },
+    "bash login shell": {
+      "path": "bash",
+      "args": ["-l"],
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh"
+    },
+    "zsh login shell": {
+      "path": "zsh",
+      "args": ["-l"]
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    }
+  },
+  // "sync.forceUpload": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  // "python.showStartPage": false,
+  "scm.repositories.visible": 0,
+  "editor.accessibilitySupport": "off",
+  "autoDocstring.startOnNewLine": true,
+  // "githubPullRequests.createOnPublishBranch": "never",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "python.terminal.activateEnvironment": false,
+  "git.mergeEditor": true,
+  // "githubPullRequests.pullBranch": "never",
+  "security.workspace.trust.untrustedFiles": "open",
+  "settingsSync.ignoredSettings": [
+    "editor.fontFamily",
+    "powershell.powerShellDefaultVersion"
+  ],
+  // "xml.format.maxLineWidth": 0,
+  "pylint.args": [
+    // very nice pylint args
+    "--max-line-length=500",
+    "--disable=all",
+    "--enable=F,E,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode"
+  ],
+  "autopep8.args": ["--max-line-length=500", "--ignore", "E402"],
+  // "github.copilot.enable": {
+  //   "*": true,
+  //   "plaintext": true,
+  //   "markdown": true,
+  //   "scminput": false
+  // },
+  "terminal.integrated.scrollback": 10000,
+  "explorer.confirmDelete": false,
+  "workbench.colorTheme": "Tokyo Night" // Tokyo Night (Theme) Extension
+}
