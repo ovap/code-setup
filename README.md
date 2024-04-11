@@ -17,7 +17,7 @@ Personal preferences of setting up my coding environment[^1]
     - **Node**
       - Currently just the version
     - **Python**
-      - Shows what Virutal Enviroment is enabled.
+      - Shows what Virutal Environment is enabled.
     - **AWS**
       - Profile + Region
     - **Azure** (Make sure to enable the ENV in the profiles)
