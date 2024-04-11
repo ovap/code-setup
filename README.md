@@ -8,6 +8,9 @@ Personal preferences of setting up my coding environment[^1]
 
 ### PowerShell Profiles
 
+> [!NOTE]
+> PowerShell user profiles can be found at `%USERPROFILE%\Documents\WindowsPowerShell`
+
 - `Microsoft.PowerShell_profile.ps1`
   - This includes all profile configuration for the Windows PowerShell Terminal
 - `Microsoft.VSCode_profile.ps1`
