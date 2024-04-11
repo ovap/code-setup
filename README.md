@@ -2,7 +2,7 @@
 
 # code-setup
 
-Personal preferences of setting up my coding environment[^1]
+Personal preferences of setting up my coding environment :shipit:[^1]
 
 ## Folders
 
