@@ -25,5 +25,4 @@ ms-python.pylint
 ms-python.debugpy
 syler.sass-indented
 adamwalzer.scss-lint
-rangav.vscode-thunder-client
 enkia.tokyo-night
