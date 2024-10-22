@@ -23,7 +23,7 @@
     "**/.settings": true,
     "**/.factorypath": true
   },
-  "redhat.telemetry.enabled": false, // Ewwwwwwww
+  "redhat.telemetry.enabled": false,
   "terminal.integrated.fontFamily": "MesloLGS NF", // Nerd Font (https://www.nerdfonts.com/)
   "workbench.startupEditor": "none",
   "explorer.compactFolders": false,
@@ -53,7 +53,7 @@
   },
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
-  "python.venvPath": "C:\\Users\\ENTERYOURUSERNAMEHERE\\Documents\\Python", // Please just replace your username where it states.
+  "python.venvPath": "~\\Documents\\Python",
   "python.analysis.autoImportCompletions": false,
   "files.insertFinalNewline": true,
   "html.format.wrapLineLength": 0,
@@ -64,6 +64,7 @@
   "terminal.integrated.profiles.windows": {
     "PowerShell": {
       // PowerShell is best!
+      "path": "${env:windir}\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
       "source": "PowerShell",
       "icon": "terminal-powershell"
     },
