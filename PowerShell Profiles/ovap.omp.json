@@ -88,7 +88,7 @@
             "time_format": "3:04 PM"
           },
           "style": "diamond",
-          "template": " \uf0f4 {{ .CurrentDate | date .Format }} ",
+          "template": " \uf0f4  {{ .CurrentDate | date .Format }} ",
           "trailing_diamond": "\ue0b0",
           "type": "time"
         }

@@ -1,6 +1,6 @@
 # Try and load the Oh My Posh Configuration
 try {
-  oh-my-posh init pwsh --config 'C:\Users\john\Documents\WindowsPowerShell\ovap.omp.json' | Invoke-Expression
+  oh-my-posh init pwsh --config "~\Documents\WindowsPowerShell\ovap.omp.json" | Invoke-Expression
 }
 catch {
   # Error if there was an issue.

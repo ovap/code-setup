@@ -10,6 +10,13 @@ Personal preferences of setting up my coding environment :shipit:[^1]
 
 > [!NOTE]
 > PowerShell user profiles can be found at `%USERPROFILE%\Documents\WindowsPowerShell`
+>
+>*You might need to run the following PowerShell Script to create your profile*
+>```powershell
+>if (!(Test-Path -Path $PROFILE)) {
+>  New-Item -ItemType File -Path $PROFILE -Force
+>}
+>```
 
 - `Microsoft.PowerShell_profile.ps1`
   - This includes all profile configuration for the Windows PowerShell Terminal
