@@ -1,32 +1,15 @@
-// Add whatever other settings you would like or change to your liking, go wild!
 {
 	"files.autoSave": "afterDelay",
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.formatOnSave": true,
 	"editor.formatOnPaste": true,
 	"editor.formatOnType": true,
 	"editor.tabSize": 2,
 	"files.eol": "\n",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"npm.packageManager": "yarn",
 	"diffEditor.wordWrap": "on",
 	"editor.wordWrap": "on",
-	"editor.suggestSelection": "first",
-	"files.exclude": {
-		"**/.classpath": true,
-		"**/.project": true,
-		"**/.settings": true,
-		"**/.factorypath": true
-	},
-	"editor.detectIndentation": true,
-	"redhat.telemetry.enabled": false,
-	"terminal.integrated.fontFamily": "FiraCode Nerd Font", // Nerd Font (https://www.nerdfonts.com/)
-	"workbench.startupEditor": "none",
-	"explorer.compactFolders": false,
-	"editor.cursorWidth": 2,
-	"http.proxyAuthorization": null,
-	//"github.gitProtocol": "ssh",
-	"git.showPushSuccessNotification": true,
-	"editor.minimap.autohide": "mouseover",
+	"terminal.integrated.fontFamily": "FiraCode Nerd Font",
 	"editor.stickyScroll.enabled": true,
 	"editor.cursorBlinking": "smooth",
 	"material-icon-theme.activeIconPack": "nest",
@@ -36,21 +19,9 @@
 	"editor.cursorSmoothCaretAnimation": "on",
 	"files.trimTrailingWhitespace": true,
 	"powershell.codeFormatting.preset": "OTBS",
-	"editor.multiCursorModifier": "ctrlCmd",
-	"terminal.integrated.allowChords": false,
-	"git.ignoreMissingGitWarning": true,
 	"[markdown]": {
 		"files.trimTrailingWhitespace": false
 	},
-	"git.enableSmartCommit": true,
-	"git.confirmSync": false,
-	"python.venvPath": "~\\Python",
-	"python.analysis.autoImportCompletions": false,
-	"files.insertFinalNewline": true,
-	"html.format.wrapLineLength": 0,
-	"editor.minimap.enabled": true,
-	"git.ignoreLegacyWarning": true,
-	"git.autofetch": true,
 	"terminal.integrated.profiles.windows": {
 		"PowerShell": {
 			"path": "${env:windir}\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
@@ -90,42 +61,54 @@
 			"icon": "terminal-powershell"
 		}
 	},
+	"git.enableSmartCommit": true,
+	"git.confirmSync": false,
+	"python.venvPath": "~\\Python",
+	"python.analysis.autoImportCompletions": false,
+	"files.insertFinalNewline": true,
+	"html.format.wrapLineLength": 0,
+	"editor.minimap.enabled": true,
+	"git.ignoreLegacyWarning": true,
+	"git.autofetch": true,
 	"diffEditor.ignoreTrimWhitespace": false,
 	"scm.repositories.visible": 0,
 	"editor.accessibilitySupport": "off",
 	"autoDocstring.startOnNewLine": true,
-	// "githubPullRequests.createOnPublishBranch": "never",
-	"terminal.integrated.defaultProfile.osx": "zsh",
-	"python.terminal.activateEnvironment": false,
-	"git.mergeEditor": true,
-	// "githubPullRequests.pullBranch": "never",
 	"security.workspace.trust.untrustedFiles": "open",
-	"settingsSync.ignoredSettings": [
-		"editor.fontFamily",
-		"powershell.powerShellDefaultVersion"
-	],
-	// "xml.format.maxLineWidth": 0,
 	"pylint.args": [
-		// very nice pylint args
 		"--max-line-length=500",
 		"--disable=all",
 		"--enable=F,E,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode"
 	],
-	"autopep8.args": ["--max-line-length=500", "--ignore", "E402"],
-	// "github.copilot.enable": {
-	//   "*": true,
-	//   "plaintext": true,
-	//   "markdown": true,
-	//   "scminput": false
-	// },
+	"python.terminal.activateEnvironment": false,
+	"git.mergeEditor": true,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"terminal.integrated.allowChords": false,
+	"git.ignoreMissingGitWarning": true,
+	"editor.suggestSelection": "first",
+	"files.exclude": {
+		"**/.classpath": true,
+		"**/.project": true,
+		"**/.settings": true,
+		"**/.factorypath": true
+	},
+	"editor.detectIndentation": true,
+	"workbench.startupEditor": "none",
+	"redhat.telemetry.enabled": false,
+	"explorer.compactFolders": false,
+	"editor.cursorWidth": 2,
+	"http.proxyAuthorization": null,
+	"chat.titleBar.openInAgentsWindow.enabled": false,
+	"git.showPushSuccessNotification": true,
+	"editor.minimap.autohide": "mouseover",
+	"chat.titleBar.signIn.enabled": false,
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.colorTheme": "Tokyo Night",
 	"terminal.integrated.scrollback": 10000,
 	"explorer.confirmDelete": false,
-	"workbench.colorTheme": "Tokyo Night",
 	"prettier.useTabs": true,
 	"prettier.singleQuote": true,
 	"python.terminal.useEnvFile": true,
-	"remote.SSH.remotePlatform": {
-		"ansible": "linux"
-	},
-	"ansible.validation.lint.enabled": false
+	"ansible.validation.lint.enabled": false,
+	"python.analysis.typeCheckingMode": "basic"
 }
