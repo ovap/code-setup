@@ -1,0 +1,43 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = """
+$os $directory $git_branch$git_status $go$nodejs$python\n$character"""
+
+palette = 'starship_theme'
+
+[palettes.starship_theme]
+color_bg = '#1e1e24'
+color_os = '#e06c75'
+color_dir = '#61afef'
+color_git = '#98c379'
+color_lang = '#e5c07b'
+color_time = '#2c313a'
+
+[os.symbols]
+Windows = " "
+
+[os]
+disabled = false
+style = "fg:color_os"
+format = '[$symbol]($style)'
+
+[directory]
+disabled = false
+style = "bold fg:color_dir"
+format = '[󰉋 $path]($style) '
+truncation_length = 8
+truncate_to_repo = true
+
+[git_branch]
+disabled = false
+symbol = " "
+style = "bold fg:color_git"
+format = 'on [$symbol$branch]($style) '
+
+[git_status]
+disabled = false
+style = 'bold blue'
+
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"

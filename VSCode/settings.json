@@ -63,7 +63,7 @@
 	},
 	"git.enableSmartCommit": true,
 	"git.confirmSync": false,
-	"python.venvPath": "~\\Python",
+	"python.venvPath": "${env:USERPROFILE}\\Python",
 	"python.analysis.autoImportCompletions": false,
 	"files.insertFinalNewline": true,
 	"html.format.wrapLineLength": 0,
@@ -110,5 +110,6 @@
 	"prettier.singleQuote": true,
 	"python.terminal.useEnvFile": true,
 	"ansible.validation.lint.enabled": false,
-	"python.analysis.typeCheckingMode": "basic"
+	"python.analysis.typeCheckingMode": "basic",
+	"rainbow_csv.csv_lint_detect_trailing_spaces": true
 }
